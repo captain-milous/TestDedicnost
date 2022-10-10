@@ -60,7 +60,7 @@ namespace TestDedicnost
 
         public override string ToString()
         {
-            return "Auto které má objem nádrže " + this.objemNadrze + " a v nádrži je "+this.palivo+" paliva." ;
+            return "Auto, které má objem nádrže " + this.objemNadrze + " a v nádrži je "+this.palivo+" paliva." ;
         }
 
         public void NalijPalivo(double pal)
