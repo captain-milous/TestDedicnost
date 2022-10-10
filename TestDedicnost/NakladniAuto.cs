@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace TestDedicnost
 {
-    internal class NakladniAuto
+    internal class NakladniAuto : Auto
     {
+        protected double hmotnostNakladu;
+
     }
 }
