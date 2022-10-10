@@ -11,6 +11,11 @@ namespace TestDedicnost
         protected double objemNadrze;
         protected double palivo;
 
+        public Auto()
+        {
+            ObjemNadrze = 1;
+            palivo = 1;
+        }
         public Auto(double objemNadrze, double palivo)
         {
             ObjemNadrze = objemNadrze;
